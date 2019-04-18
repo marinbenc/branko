@@ -1,0 +1,1833 @@
+[
+
+  {
+    "english": "access control list",
+    "croatian": "lista prava pristupa, lista s pravima pristupa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "access network",
+    "croatian": "pristupna mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "access point",
+    "croatian": "pristupna točka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "anti-aliasing",
+    "croatian": "zaglađivanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "application (imenica)",
+    "croatian": "primjena",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "application data unit (ADU)",
+    "croatian": "aplikacijska podatkovna jedinica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "application layer",
+    "croatian": "aplikacijski sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "application protocol data unit (APDU, A-PDU)",
+    "croatian": "aplikacijska protokolna jedinica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "application server",
+    "croatian": "aplikacijski poslužitelj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "area (npr. u OSPF-u)",
+    "croatian": "područje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "attack on endpoints",
+    "croatian": "napad na krajnje točke/sustave [komunikacije]",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "attack pattern",
+    "croatian": "obrazac napada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "attack trees",
+    "croatian": "stabla napada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "attack vector",
+    "croatian": "vektor napada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "authentication",
+    "croatian": "ovjera, autentifikacija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "backpropagation",
+    "croatian": "propagacija unatrag",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "backpropagation algorithm",
+    "croatian": "algoritam propagacije pogreške unatrag",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "bandwidth",
+    "croatian": "širina propusnog pojasa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "backbone",
+    "croatian": "okosnica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "best-effort network",
+    "croatian": "mreža najbolje namjere",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "breakpoint [DBG]",
+    "croatian": "prekid, prekidna točka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "ethernet bridge",
+    "croatian": "premosnik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "boot",
+    "croatian": "pokretanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "botnet",
+    "croatian": "mreža kompromitiranih računala",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "breakpoint",
+    "croatian": "prekidna točka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "broadcast",
+    "croatian": "difuzija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "business continuity",
+    "croatian": "kontinuitet poslovanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "busy wait",
+    "croatian": "radno čekanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "cache (memory)",
+    "croatian": "privremena memorija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "challenge-response autentification",
+    "croatian": "autentifikacija izazov-odgovor",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "classfull",
+    "croatian": "klasni (u IP-u klasno adresiranje)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "classless",
+    "croatian": "bezklasni (u IP-u bezklasno adresiranje)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "clipping [VoIP]",
+    "croatian": "odsjecanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "clock cycle [ARCH]",
+    "croatian": "vremenski ciklus, strojni ciklus, interni ciklus",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "clock rate, clock speed [ARCH]",
+    "croatian": "frekvencija generatora takta",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "cloud computing",
+    "croatian": "računarstvo u oblaku",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "command line",
+    "croatian": "komandna linija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "compatibility",
+    "croatian": "usklađenost, uskladivost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "computer science",
+    "croatian": "računalna znanost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "computer fraud",
+    "croatian": "računalna prijevara",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "computing science",
+    "croatian": "računarska znanost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "connection",
+    "croatian": "spoj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "connectionless",
+    "croatian": "bespojan/bespojna",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "connection oriented",
+    "croatian": "spojno orijentiran",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "connection service",
+    "croatian": "spojna usluga",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "connectionless service",
+    "croatian": "bespojna usluga",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "configure",
+    "croatian": "podesiti, podešavati",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "congestion avoidance [TCP]",
+    "croatian": "izbjegavanje zakrčenja, faza izbjegavanja zakrčenja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "congestion control [TCP]",
+    "croatian": "upravljanje zakrčenjem",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "congestion window (cwnd) [TCP]",
+    "croatian": "prozor zakrčenja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "consumer-producer",
+    "croatian": "proizvođač-potrošač",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "content management system (CMS)",
+    "croatian": "sustav upravljanja sadržaja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "context-free grammar",
+    "croatian": "kontekstno-neovisna gramatika",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "control [IS]",
+    "croatian": "kontrola",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "control plane [RT]",
+    "croatian": "ravnina upravljanja, upravljačka ravnina",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "copy-paste",
+    "croatian": "kopiraj i zalijepi",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "core network",
+    "croatian": "jezgrena mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "crossover (UTP)",
+    "croatian": "ukriženi (UTP)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "customization",
+    "croatian": "prilagodba",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "cybercriminal",
+    "croatian": "računalni kriminal",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "cyclic redundancy check (CRC)",
+    "croatian": "ciklički zaštitni kod",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "cyberthreat",
+    "croatian": "računalna prijetnja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "data link layer",
+    "croatian": "podatkovni sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "data manipulation instructions [ARCH]",
+    "croatian": "Instrukcije za rukovanje podacima",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "data mining",
+    "croatian": "dubinska analiza podataka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "date representation",
+    "croatian": "prikaz datuma",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "data mining",
+    "croatian": "dubinska analiza podataka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "decision tables",
+    "croatian": "tablice odlučivanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "deep learning [ML]",
+    "croatian": "duboko učenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "default",
+    "croatian": "podrazumijevano",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "default free zone [RT]",
+    "croatian": "zona bez podrazumijevane staze",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "denial of service (DoS)",
+    "croatian": "usraćivanje usluge, napad uskraćivanja usluge",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "dependency",
+    "croatian": "zavisnost, ovisnost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "designated router",
+    "croatian": "odabrani usmjernik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "desktop computer",
+    "croatian": "stolno računalo",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "development",
+    "croatian": "razvoj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "disk array",
+    "croatian": "polje diskova",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "distance-vector protocol",
+    "croatian": "protokol vektora udaljenosti",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "distributed denial of service (DDoS)",
+    "croatian": "raspodijeljeni napad uskraćivanja usluge",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "downgrading",
+    "croatian": "degradiranje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "download",
+    "croatian": "preuzimanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "driver",
+    "croatian": "upravljački program",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "egress interface",
+    "croatian": "izlazno sučelje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "egress network",
+    "croatian": "izlazna mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "encryption",
+    "croatian": "kriptiranje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "e-mail, email",
+    "croatian": "elektronička pošta",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "e-mail header",
+    "croatian": "zaglavlje poruke elektroničke pošte (ili kratko zaglavlje)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "e-mail message",
+    "croatian": "poruka elektroničke pošte",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "end-to-end encryption",
+    "croatian": "šifriranje s kraja na kraj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "end user",
+    "croatian": "krajnji korisnik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "end point",
+    "croatian": "krajnja točka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "end-to-end",
+    "croatian": "s kraja na kraj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "exception",
+    "croatian": "iznimka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "execution control",
+    "croatian": "upravljanje izvođenjem",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "expiry timer",
+    "croatian": "vremensko brojilo valjanosti",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "explicit congestion notification (ECN)",
+    "croatian": "eksplicitna dojava zakrčenja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "exploit",
+    "croatian": "metoda iskorištavanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "fairness",
+    "croatian": "nepristranost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "feature [ML]",
+    "croatian": "značajka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "feedforward network [ML]",
+    "croatian": "unaprijedna mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "file management",
+    "croatian": "upravljanje datotekama",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "firewall",
+    "croatian": "sigurnosna stijena",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "flash disks",
+    "croatian": "poluvodički diskovi",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "floating-point register",
+    "croatian": "registar za podatke s pomičnim zarezom",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "flood, flooding",
+    "croatian": "preplavljivanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "floor structuring for computer installations",
+    "croatian": "podna konstrukcija za računalne instalacije",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "floppy disk drive",
+    "croatian": "disketna jedinica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "forking [VoIP]",
+    "croatian": "grananje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "forking server [VoIP]",
+    "croatian": "poslužitelj za grananje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "forwarding",
+    "croatian": "proslijeđivanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "forwarding information base (FIB)",
+    "croatian": "baza proslijeđivanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "forwarding plane",
+    "croatian": "ravnina proslijeđivanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "forwarding table",
+    "croatian": "tablica proslijeđivanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "framework",
+    "croatian": "okvir",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "full duplex",
+    "croatian": "dvosmjerna (komunikacija)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "garbage collection",
+    "croatian": "automatsko upravljanje memorijom, sakupljanje smeća",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "gateway",
+    "croatian": "poveznik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "half duplex",
+    "croatian": "obosmjerna (komunikacija)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "handshake",
+    "croatian": "dogovaranje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "hash",
+    "croatian": "sažetak",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "hash algorithm",
+    "croatian": "algoritam sažimanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "hash function",
+    "croatian": "funkcija sažimanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "header file [C]",
+    "croatian": "zaglavlje, zaglavna datoteka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "heap manipulation",
+    "croatian": "rukovanje gomilom",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "hidden layer [ML]",
+    "croatian": "skriveni sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "home agent (MIP)",
+    "croatian": "agent na domaćoj mreži",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "honeypot",
+    "croatian": "mamac, lažna žrtva {MG}",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "host byte order",
+    "croatian": "poredak okteta na računalu, računalni poredak okteta",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "host intrusion detection system (HIDS)",
+    "croatian": "računalni sustav otkrivanja napada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "hub",
+    "croatian": "koncentrator",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "identification",
+    "croatian": "identifikacija, predstavljanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "identity and access management (IAM)",
+    "croatian": "upravljanje identitetima i pristupom",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "image (disk image)",
+    "croatian": "slika (slika diska)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "ingress interface",
+    "croatian": "ulazno sučelje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "ingress network",
+    "croatian": "ulazna mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "injection attack",
+    "croatian": "napad ubacivanja, napad ubacivanjem",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "interface",
+    "croatian": "sučelje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "inter-autonomous system routing",
+    "croatian": "usmjeravanje između autonomnih sustava",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "internet service provider (ISP)",
+    "croatian": "pružatelj internet usluga",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "intra-autonomous system routing",
+    "croatian": "usmjeravanje unutar autonomnih sustava",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "intrusion detection system (IDS)",
+    "croatian": "sustav za otkrivanje napada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "intrusion prevention system (IPS)",
+    "croatian": "sustav za sprječavanje napada {SG}",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "inter-process communication (IPC)",
+    "croatian": "međuprocesna komunikacija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "job management",
+    "croatian": "upravljanje zadacima",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "Java virtual machine (JVM)",
+    "croatian": "Javin virtualni stroj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "kernel",
+    "croatian": "jezgra",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "kernel [OS]",
+    "croatian": "jezgra operacijskog sustava",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "kernel level mode",
+    "croatian": "jezgrin način rada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "kernel space",
+    "croatian": "jezgrin prostor, jezgrina okolina",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "key exchange",
+    "croatian": "razmjena ključeva",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "Learning Classifier Systems (LCS)",
+    "croatian": "klasifikatorski sustavi sa sposobnošcu ucenja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "legacy free",
+    "croatian": "slobodno od naslijeđa, bez naslijeđa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "licky bucket (algorithm)",
+    "croatian": "kabao koji curi (algoritam kabla koji curi)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "link",
+    "croatian": "veza",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "link down notification",
+    "croatian": "obavijest o neaktivnoj vezi, obavijest o deaktiviranju veze",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "link-state advertisement",
+    "croatian": "oglašavanje/objava stanja veze",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "link state notification",
+    "croatian": "obavijest o stanju veze",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "link state protocol",
+    "croatian": "protokol stanja veze",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "link up notification",
+    "croatian": "obavijest o aktivnoj vezi, obavijest o aktiviranju veze",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "locator (routing locator, RLOC)",
+    "croatian": "lokator (usmjernički lokator)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "log",
+    "croatian": "(imenica)dnevnik, (glagol)zabilježiti",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "log entry",
+    "croatian": "zapis, zapis u dnevniku",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "logging",
+    "croatian": "bilježenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "logical link control (LLC) sublayer",
+    "croatian": "podsloj upravljanja logičkim povezivanjem",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "machine learning [ML]",
+    "croatian": "strojno učenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "malware [software]",
+    "croatian": "zloćudni program, zlonamjerni program",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "media access control (MAC) sublayer",
+    "croatian": "podsloj pristupa prijenosnom sloju",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "memory cycle time",
+    "croatian": "trajanje spremničkog ciklusa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "memory volatility",
+    "croatian": "nepostojanost memorije",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "message passing",
+    "croatian": "razmjena poruka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "mobility",
+    "croatian": "mobilnost, pokretljivost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "multicast",
+    "croatian": "difuzija u grupi",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "multidimensional",
+    "croatian": "višedimenzionalni",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "multihoming",
+    "croatian": "višepristupnost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "multi-layer perceptron [ML]",
+    "croatian": "višeslojni perceptron",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "multithreading [OS]",
+    "croatian": "višedretvenost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "namespace",
+    "croatian": "prostor imena",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "network byte order",
+    "croatian": "mrežni poredak okteta",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "network intrusion detection system (NIDS)",
+    "croatian": "sustav otkrivanja napada na mreži",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "network layer",
+    "croatian": "mrežni sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "neural network [ML]",
+    "croatian": "neuronska mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "nick",
+    "croatian": "nadimak",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "nontransit area",
+    "croatian": "neprijenosno/netranzitno područje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "object file",
+    "croatian": "objektna datoteka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "offline",
+    "croatian": "predodređeno, odspojeno, isključeno, izvanmrežno",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "one-time password (OTP)",
+    "croatian": "jednokratna lozinka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "online",
+    "croatian": "spojeno, na zahtjev, uključeno, umreženo",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "online shopping",
+    "croatian": "kupovina putem Interneta",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "open source",
+    "croatian": "otvoreni kod",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "open source license",
+    "croatian": "licenca otvorenog koda",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "operating system",
+    "croatian": "operacijski sustav",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "packet drop",
+    "croatian": "odbacivanje paketa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "packet interception",
+    "croatian": "presretanje paketa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "packet reject",
+    "croatian": "odbijanje paketa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "padding",
+    "croatian": "ispuna, dopuna",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "paging [OS]",
+    "croatian": "straničenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "palm-top computer",
+    "croatian": "dlanovnici, ručna računala",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "parallel processing architectures",
+    "croatian": "arhitekture paralelne obrade",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "parallel processing techniques",
+    "croatian": "tehnike usporedne obrade",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "patch",
+    "croatian": "zakrpa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "payload",
+    "croatian": "sadržaj, teret",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "peer-to-peer network",
+    "croatian": "partnersko umrežavanje, partnerska mreža, partnerske mreže",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "pentest, pentesting, penetration testing",
+    "croatian": "penetracijsko ispitivanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "physical layer",
+    "croatian": "fizički sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "pipeline control [ARCH]",
+    "croatian": "Upravljanje cjevovodom, upravljanje protočnom strukturom",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "point-to-point",
+    "croatian": "od točke do točke",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "policy",
+    "croatian": "politika",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "port",
+    "croatian": "pristup",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "presentation layer",
+    "croatian": "prezentacijski sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "pre-shared key",
+    "croatian": "dijeljena tajna",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "protocol data unit (PDU)",
+    "croatian": "protokolna jedinica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "proxy",
+    "croatian": "posrednik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "proxy server",
+    "croatian": "posrednički poslužitelj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "pseudo-radnom function (PRF)",
+    "croatian": "pseudo-slučajna funkcija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "quality of service (QoS)",
+    "croatian": "kvaliteta usluge",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "queue",
+    "croatian": "red",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "ransomware",
+    "croatian": "ucjenjivački kod, ucjenjivački zloćudni kod",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "real-time",
+    "croatian": "stvarno vrijeme",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "redirect server",
+    "croatian": "poslužitelj za preusmjeravanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "remote access",
+    "croatian": "udaljeni pristup",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "resource",
+    "croatian": "resurs, sredstvo",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "retargeting [VoIP]",
+    "croatian": "preusmjeravanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "reusability",
+    "croatian": "višestruka upotreba/upotrebljivost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "reuse",
+    "croatian": "ponovo upotrijebiti/koristiti",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "risk assessment",
+    "croatian": "procjena rizika",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "risk management",
+    "croatian": "upravljanje rizicima",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "risk mitigation",
+    "croatian": "ublažavanje rizika",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "read-only memory (ROM)",
+    "croatian": "permanentna memorija, ispisna memorija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "round trip time (RTT)",
+    "croatian": "vrijeme povrata",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "route",
+    "croatian": "staza",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "router",
+    "croatian": "usmjernik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "routing",
+    "croatian": "usmjeravanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "routing information base (RIB)",
+    "croatian": "baza usmjeravanja, baza usmjerničkih/usmjerivačkih informacija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "routing table",
+    "croatian": "tablica usmjeravanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "runtime environment [OS]",
+    "croatian": "izvršno okruženje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "runtime storage allocation [OS]",
+    "croatian": "dinamičko zauzimanje memorije",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "sampling",
+    "croatian": "uzorkovanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "sampling rate",
+    "croatian": "učestalost uzorkovanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "sandbox",
+    "croatian": "zaštićena okolina/okruženje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "scalability",
+    "croatian": "skalabilnost, razmjeran rast",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "security through obsucirty",
+    "croatian": "sigurnost korištenjem prikrivanja, sigurnost temeljena na prikrivanju",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "self-organizing map [ML]",
+    "croatian": "samoorganizirajuća mapa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "sequence number",
+    "croatian": "slijedni broj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "server",
+    "croatian": "poslužitelj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "service",
+    "croatian": "usluga",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "session",
+    "croatian": "sjednica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "session layer",
+    "croatian": "sjednički sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "shared memory [OS]",
+    "croatian": "dijeljena memorija",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "shift register",
+    "croatian": "posmačni registar",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "signal path [VoIP]",
+    "croatian": "upravljački put, put upravljanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "simplex",
+    "croatian": "jednosmjerna (komunikacija)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "single instruction stream, multiple data stream [ARCH]",
+    "croatian": "jednostruki instrukcijski tok, višestruki podatkovni tok",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "slow start [TCP]",
+    "croatian": "polagani start",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "smartphone",
+    "croatian": "pametni telefon",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "social engineering",
+    "croatian": "društveni inženjering",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "socket",
+    "croatian": "spojna točka, pristupna točka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "spam mail message, spam",
+    "croatian": "neželjena elektroniča poruka (neželjena elektronička pošta, neželjena poruka)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "spoofing",
+    "croatian": "lažiranje (izvorišnih IP adresa, adrese izvorišta, izvorišta), podvala",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "spyware",
+    "croatian": "špijunski programi",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "SQL injection attack",
+    "croatian": "napad ubacivanja SQL izraza, napad ubacivanjem SQL izraza",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "statefull",
+    "croatian": "sa stanjem",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "statefull inspection",
+    "croatian": "ispitivanje temeljeno na stanju (necega, primjerice veze)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "stateless",
+    "croatian": "bez stanja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "stream type structure [ARCH]",
+    "croatian": "protočna struktura",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "stub (area) [RT]",
+    "croatian": "krajnji (krajnje područje)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "stub [OS]",
+    "croatian": "spojni modul",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "subject [MAIL]",
+    "croatian": "naslov",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "supervized learning [ML]",
+    "croatian": "nadzirano učenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "switch, ethernet switch",
+    "croatian": "preklopnik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "system log",
+    "croatian": "sistemski dnevnik",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "tag (tagging)",
+    "croatian": "oznaka (označavanje)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "threat",
+    "croatian": "prijetnja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "threat capability",
+    "croatian": "sposobnost prijetnje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "three-way handshake",
+    "croatian": "sinkronizacija u tri koraka (uspostava spoja, raskid spoja)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "throughput",
+    "croatian": "propusnost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "timeout (glagol)",
+    "croatian": "istek vremenskog ograničenja",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "timeout (subjekt)",
+    "croatian": "vremensko ograničenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "timestamp",
+    "croatian": "vremenska oznaka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "token [COMP]",
+    "croatian": "leksička jedinka",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "token bucket (algorithm)",
+    "croatian": "kabao sa znakovima (algoritam kabla sa znakovima)",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "traffic engineering",
+    "croatian": "upravljanje prometom",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "transit area",
+    "croatian": "prijenosno/tranzitno područje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "transport layer",
+    "croatian": "prijenosni sloj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "trojan horse [IS]",
+    "croatian": "trojanski konj",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "unicast",
+    "croatian": "jednoodredišno slanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "unicast address",
+    "croatian": "jednoodredišna adresa",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "unsupervized learning [ML]",
+    "croatian": "nenadzirano učenje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "update",
+    "croatian": "ažurirati, osvježiti",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "upgrade",
+    "croatian": "nadogradnja, nadograditi",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "upload",
+    "croatian": "postavljanje",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "USB disk",
+    "croatian": "prijenosni spremnik {MG}, USB disk {MG}",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "user agent",
+    "croatian": "korisnički agent",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "user level mode",
+    "croatian": "korisnički način rada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "user space",
+    "croatian": "korisnički prostor, korisnička okolina",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "valid",
+    "croatian": "valjan",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "variable declaration",
+    "croatian": "deklaracija varijable",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "vector arithmetic unit",
+    "croatian": "vektorska aritmetička jedinica",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "vector processing",
+    "croatian": "vektorska obrada",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "virtual private network (VPN)",
+    "croatian": "virtualna privatna mreža",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "voice over IP (VoIP)",
+    "croatian": "glasovna komunikacija korištenjem protokola IP",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "vulnerability",
+    "croatian": "ranjivost",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "web resources metadata",
+    "croatian": "metapodaci sredstava na Webu",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "Web services",
+    "croatian": "Web usluge",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "well-formed",
+    "croatian": "dobro oblikovan",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  },
+  {
+    "english": "worm [IS]",
+    "croatian": "crv",
+    "note": "",
+    "source": "[Stjepan Groš](http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml)"
+  }
+]

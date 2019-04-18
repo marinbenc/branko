@@ -1,43 +1,74 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import ReactMarkdown from "react-markdown"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
+
+  groupByFirstLetter = (posts) => {
+    const reduced = posts.reduce((acc, { node }) => {
+      const startsWith = node.english.charAt(0).toLowerCase()
+      if (!acc[startsWith]) {
+        acc[startsWith] = {startsWith, children: [node]}
+      } else {
+        acc[startsWith].children.push(node)
+      }
+      return acc
+    }, {})
+
+    return Object.values(reduced)
+  }
+
+  renderWord = (node) => {
+    const { english, croatian, note, source } = node
+    return (
+      <div className="word" key={english}>
+        <h3>
+          <Link to={english}>
+            {english}
+          </Link>
+        </h3>
+        <p><ReactMarkdown source={croatian} /></p>
+        {note && <small>{"note"}</small>}
+        {source && <small className="source">(izvor: <ReactMarkdown source={source} />)</small>}
+      </div>
+    )
+  }
+
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const posts = data.allWordsJson.edges
+    posts.sort((p1, p2) => { return p1.node.english.toLowerCase() < p2.node.english.toLowerCase() ? -1 : 1 })
+    const grouped = this.groupByFirstLetter(posts)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          title="Branko - englesko hrvatski IT riječnik otvorenog koda"
+          keywords={[`prijevod`, `hrvatsko`, `engleski`, `računarstvo`, `programiranje`, `IT`]}
         />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+        <nav>
+          <ul className="letters">
+            {grouped.map((group) => {
+              return (
+                <li>
+                  <a href={"#" + group.startsWith}>{group.startsWith}</a>
+                </li>
+              )
+            })}
+          </ul>
+        </nav>
+        {grouped.map((group) => {
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+            <div className="words-for-letter" id={group.startsWith}>
+              <h2>
+                <a href={"#" + group.startsWith}>{group.startsWith}</a>
+              </h2>
+              {group.children.map(this.renderWord)}
             </div>
           )
         })}
@@ -55,20 +86,15 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allWordsJson {
       edges {
         node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
+          english
+          croatian
+          note
+          source
         }
       }
-    }
+    }  
   }
 `
