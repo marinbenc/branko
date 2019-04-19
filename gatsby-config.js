@@ -36,5 +36,17 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        fields: [`english`, `croatian`],
+        resolvers: {
+          WordsJson: {
+            english: node => node.english,
+            croatian: node => node.croatian
+          },
+        },
+      },
+    },
   ],
 }

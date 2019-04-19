@@ -22,6 +22,16 @@ a:hover {
   font-family: inherit;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.github-link {
+  margin-top: 55px;
+}
+
 .site-subtitle {
   margin-top: 10px;
   padding: 0;
@@ -32,7 +42,8 @@ a:hover {
 }
 
 .root nav {
-  margin-top: 100px;
+  margin-top: 40px;
+  margin-bottom: -40px;
 }
 
 .site-title a {
@@ -97,4 +108,28 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
+}
+
+.search-box {
+  margin-top: 40px;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  z-index: 5;
+}
+
+footer:before {
+  content: "";
+  display: block;
+  background-color: #F42C22;
+  width: 25px;
+  height: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 100px;
 }

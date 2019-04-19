@@ -20,11 +20,14 @@ class Layout extends React.Component {
 
     return (
       <div className="root">
-        <header>{header}</header>
+        <header>
+          {header}
+          <a className="github-link" href="https://github.com/marinbenc/branko">Dodaj novu riječ</a>
+        </header>
         <main>{children}</main>
         <footer>
-          Branko je <a href="github.com">riječnik otvorenog koda i svi su pozvani dodati nove riječi</a>.<br />
-          Održava <a href="marinbenc.com">Marin Benčević</a>.
+          Branko je <a href="https://github.com/marinbenc/branko">riječnik otvorenog koda i svi su pozvani dodati nove riječi</a>.<br />
+          Održava <a href="http://marinbenc.com">Marin Benčević</a>.
         </footer>
       </div>
     )

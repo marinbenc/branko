@@ -58,9 +58,3 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 }
-
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    node: { fs: 'empty' },
-  })
-}
