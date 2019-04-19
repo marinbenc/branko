@@ -5,30 +5,18 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    let header
-
-    if (location.pathname === rootPath) {
-      header = (
-        <div>
-          <h1 className="site-title">
-            <Link to={`/`}>
-              {title}
-            </Link>
-          </h1>
-          <h2 className="site-subtitle">
-          englesko hrvatski IT riječnik otvorenog koda
-          </h2>
-        </div>
-      )
-    } else {
-      header = (
-        <h3 className="page-title">
+    const header = (
+      <div>
+        <h1 className="site-title">
           <Link to={`/`}>
             {title}
           </Link>
-        </h3>
-      )
-    }
+        </h1>
+        <h2 className="site-subtitle">
+          englesko hrvatski IT riječnik otvorenog koda
+        </h2>
+      </div>
+    )
 
     return (
       <div className="root">

@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `Branko`,
     author: `Marin Bencevic`,
-    description: `Englesko - hrvatski IT riječnik otvorenog koda`,
+    description: `englesko hrvatski IT riječnik otvorenog koda`,
     siteUrl: `https://branko.github.io/`,
   },
   plugins: [
@@ -14,17 +14,9 @@ module.exports = {
         name: `content`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
     `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -34,7 +26,6 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-offline`,

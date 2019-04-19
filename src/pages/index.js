@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Word from "../components/word"
 
 class BlogIndex extends React.Component {
 
@@ -23,18 +23,8 @@ class BlogIndex extends React.Component {
   }
 
   renderWord = (node) => {
-    const { english, croatian, note, source } = node
     return (
-      <div className="word" key={english}>
-        <h3>
-          <Link to={english}>
-            {english}
-          </Link>
-        </h3>
-        <p><ReactMarkdown source={croatian} /></p>
-        {note && <small>{"note"}</small>}
-        {source && <small className="source">(izvor: <ReactMarkdown source={source} />)</small>}
-      </div>
+      <Word data={node} />
     )
   }
 

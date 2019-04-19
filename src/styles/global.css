@@ -89,7 +89,12 @@ a:hover {
   background: #F42C22;
 }
 
-
 .words-for-letter h2 a {
   color: white;
+}
+
+.word-page .back {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
 }

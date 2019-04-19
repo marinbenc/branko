@@ -1,66 +1,66 @@
-// const path = require(`path`)
-// const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-// exports.createPages = ({ graphql, actions }) => {
-//   const { createPage } = actions
+function slugify(text) {
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')           // Replace spaces with -
+    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+    .replace(/^-+/, '')             // Trim - from start of text
+    .replace(/-+$/, '');            // Trim - from end of text
+}
 
-//   const blogPost = path.resolve(`./src/templates/blog-post.js`)
-//   return graphql(
-//     `
-//       {
-//         allMarkdownRemark(
-//           sort: { fields: [frontmatter___date], order: DESC }
-//           limit: 1000
-//         ) {
-//           edges {
-//             node {
-//               fields {
-//                 slug
-//               }
-//               frontmatter {
-//                 title
-//               }
-//             }
-//           }
-//         }
-//       }
-//     `
-//   ).then(result => {
-//     if (result.errors) {
-//       throw result.errors
-//     }
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
 
-//     // Create blog posts pages.
-//     const posts = []//result.data.allMarkdownRemark.edges
+  const wordTemplate = path.resolve(`./src/templates/word.js`)
+  return graphql(
+    `
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      allWordsJson {
+        edges {
+          node {
+            english
+            croatian
+            note
+            source
+          }
+        }
+      }
+    }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
 
-//     posts.forEach((post, index) => {
-//       const previous = index === posts.length - 1 ? null : posts[index + 1].node
-//       const next = index === 0 ? null : posts[index - 1].node
+    const words = result.data.allWordsJson.edges
 
-//       createPage({
-//         path: post.node.fields.slug,
-//         component: blogPost,
-//         context: {
-//           slug: post.node.fields.slug,
-//           previous,
-//           next,
-//         },
-//       })
-//     })
+    words.forEach((word, index) => {
+      const previous = index === words.length - 1 ? null : words[index + 1].node
+      const next = index === 0 ? null : words[index - 1].node
+      const slug = slugify(word.node.english)
 
-//     return null
-//   })
-// }
+      createPage({
+        path: slug,
+        component: wordTemplate,
+        context: {
+          slug: slug,
+          word: word
+        },
+      })
+    })
+    return null
+  })
+}
 
-// exports.onCreateNode = ({ node, actions, getNode }) => {
-//   const { createNodeField } = actions
-
-//   if (node.internal.type === `MarkdownRemark`) {
-//     const value = createFilePath({ node, getNode })
-//     createNodeField({
-//       name: `slug`,
-//       node,
-//       value,
-//     })
-//   }
-// }
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: { fs: 'empty' },
+  })
+}
