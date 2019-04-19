@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Word from "../components/word"
 
-class BlogIndex extends React.Component {
+class WordsIndex extends React.Component {
 
   constructor(props) {
     super(props)
@@ -105,7 +105,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default WordsIndex
 
 export const pageQuery = graphql`
   query {
