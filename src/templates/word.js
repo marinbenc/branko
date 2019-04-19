@@ -14,7 +14,7 @@ class WordTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <div className="word-page">
           <SEO
-            title={word.english + "| Branko - englesko hrvatski riječnik otvorenog koda"}
+            title={word.english + "| Branko - englesko hrvatski rječnik otvorenog koda"}
             description={word.english + " prijevod na hrvatski jezik: " + word.croatian}
           />
           <Word data={word.node} />
