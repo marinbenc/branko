@@ -9,8 +9,6 @@ Wordpress2016.overrideThemeStyles = () => {
   }
 }
 
-delete Wordpress2016.googleFonts
-
 const typography = new Typography(Wordpress2016)
 
 // Hot reload typography in development.
