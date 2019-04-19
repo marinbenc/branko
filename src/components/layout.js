@@ -13,7 +13,7 @@ class Layout extends React.Component {
           </Link>
         </h1>
         <h2 className="site-subtitle">
-          englesko hrvatski IT riječnik otvorenog koda
+          englesko hrvatski IT rječnik otvorenog koda
         </h2>
       </div>
     )
@@ -26,7 +26,7 @@ class Layout extends React.Component {
         </header>
         <main>{children}</main>
         <footer>
-          Branko je <a href="https://github.com/marinbenc/branko">riječnik otvorenog koda i svi su pozvani dodati nove riječi</a>.<br />
+          Branko je <a href="https://github.com/marinbenc/branko">rječnik otvorenog koda i svi su pozvani dodati nove riječi</a>.<br />
           Održava <a href="http://marinbenc.com">Marin Benčević</a>.
         </footer>
       </div>
